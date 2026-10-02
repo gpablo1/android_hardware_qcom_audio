@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote name="umi-audio" fetch="https://github.com/" />
+  <remove-project name="AOSPA/android_hardware_qcom_audio" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="gpablo1/android_hardware_qcom_audio" remote="umi-audio" revision="abcbe2ae24212c54ddfd80e3480553e5b72293a9" upstream="umi-calcite" />
+</manifest>
